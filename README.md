@@ -2,7 +2,7 @@
 
 In this repository, the running scripts to reproduce the models described in the article entitled of "Electrical Resistivity as a Descriptor for Classification of Amorphous-Crystalline Phases of Alloys," authored by Daegun You, Haitao Zhang, Shraddha Ganorkar, Taeyeop Kim, Jan Schroers, Joost J. Vlassak, and Dongwoo Lee.
 
-# Implementation
+## Implementation
 
 The scripts in this repository can be reproducible via two methods.
 
