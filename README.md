@@ -11,4 +11,4 @@ Download scripts and data to run.
 
 2. Use Google Colab. Two models are linked via the followings:
 https://colab.research.google.com/drive/1oS4rQTOYKA3RHbJ86EFaLC4JNRpjvDSa?usp=sharing
-https://colab.research.google.com/drive/1oS4rQTOYKA3RHbJ86EFaLC4JNRpjvDSa?usp=sharing
+https://colab.research.google.com/drive/1guedrm8got1pI_UJ0MoQko07D6mJ4oQx?usp=sharing
