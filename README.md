@@ -7,7 +7,6 @@ In this repository, the running scripts to reproduce the models described in the
 The scripts in this repository can be reproducible via two methods.
 
 1. Install software and all modules in your local drive.
-
 Download scripts and data to run.
 
 2. Use Google Colab. Two models are linked via the followings:
