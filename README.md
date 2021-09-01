@@ -6,6 +6,7 @@ In this repository, the running scripts to reproduce the models described in the
 
 The scripts in this repository can be reproducible via two methods.
 
-1. Install software and all modules in your local drive. <br/> Download scripts and data to run.
+1. Install software and all modules in your local drive. <br/> Download scripts and data to run. <br/> 
+For this option, you may need to install [numpy](https://numpy.org/install/), [keras](https://keras.io/getting_started/), [mat4py](https://pypi.org/project/mat4py/) (to read .mat format) modules via *terminal* in your local machine.
 
 2. Use Google Colab. Two models are linked via the followings: <br/> [HTE only - with 3features](https://colab.research.google.com/drive/1oS4rQTOYKA3RHbJ86EFaLC4JNRpjvDSa?usp=sharing) <br/> [HTE+Literature - with 4features](https://colab.research.google.com/drive/1guedrm8got1pI_UJ0MoQko07D6mJ4oQx?usp=sharing)
