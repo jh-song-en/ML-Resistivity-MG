@@ -10,5 +10,5 @@ The scripts in this repository can be reproducible via two methods.
 Download scripts and data to run.
 
 2. Use Google Colab. Two models are linked via the followings:
-HTE only - with 3features(https://colab.research.google.com/drive/1oS4rQTOYKA3RHbJ86EFaLC4JNRpjvDSa?usp=sharing)
+[HTE only - with 3features](https://colab.research.google.com/drive/1oS4rQTOYKA3RHbJ86EFaLC4JNRpjvDSa?usp=sharing)
 https://colab.research.google.com/drive/1guedrm8got1pI_UJ0MoQko07D6mJ4oQx?usp=sharing
