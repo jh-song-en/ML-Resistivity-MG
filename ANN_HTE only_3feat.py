@@ -1,6 +1,5 @@
 import numpy
 import numpy as np
-import matplotlib.pyplot as plt
 from mat4py import loadmat
 from keras.callbacks import EarlyStopping
 from keras.callbacks import ModelCheckpoint
