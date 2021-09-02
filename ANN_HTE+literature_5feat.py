@@ -29,14 +29,14 @@ X = scaler(np.vstack((data_training[:, :8], data_test[:, :8])))
 
 # Define training and test input, and their output as well
 # Input example below can be varied on the specific utilization of features as you want
-x_train = np.c_[X[:566,1],X[:566,3],X[:566,4],X[:566,5]]
-x_test = np.c_[X[566:,1],X[566:,3],X[566:,4],X[566:,5]]
+x_train = np.c_[X[:566,1],X[:566,3],X[:566,4],X[:566,5],X[:566,7]]
+x_test = np.c_[X[566:,1],X[566:,3],X[566:,4],X[566:,5],X[566:,7]]
 y_train = data_training[:, 8]
 y_test = data_test[:, 8]
 
 # Reshaping dataset as for network flow
-x_train = x_train.reshape(566, 4)
-x_test = x_test.reshape(142, 4)
+x_train = x_train.reshape(566, 5)
+x_test = x_test.reshape(142, 5)
 y_train = y_train.reshape(566,1)
 y_test = y_test.reshape(142,1)
 
@@ -49,7 +49,7 @@ opt = Adam(lr=1e-2)
 
 # Artificial neural networks of 50 neurons on 1-hidden layer (this has been already optimized)
 mdl = Sequential()
-mdl.add(Dense(50, input_dim=4, activation='relu'))
+mdl.add(Dense(50, input_dim=5, activation='relu'))
 mdl.add(Dense(1, activation='sigmoid'))
 mdl.compile(optimizer=opt, loss="binary_crossentropy", metrics=['accuracy'])
 hst = mdl.fit(x_train, y_train, batch_size=20, epochs=1500,
